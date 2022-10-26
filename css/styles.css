@@ -186,7 +186,16 @@ li {
     margin: 5px 0px;
 }
 
-
+.badge {
+    padding-left: .6rem;
+    padding-right: .6rem;
+    position: absolute;
+    margin-top: .8em;
+    margin-left: -.8em;
+    color: #24252b;
+    background-color: #ffbf00;
+    font-size: .4em;
+} 
 
 /*Utilities*/
 
