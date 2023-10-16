@@ -187,14 +187,15 @@ li {
 }
 
 .badge {
-    padding-left: .6rem;
+    border-radius: .3rem;
+    padding-left: 0.6rem;
     padding-right: .6rem;
     position: absolute;
-    margin-top: .8em;
+    margin-top: .3em;
     margin-left: -.8em;
     color: #24252b;
     background-color: #ffbf00;
-    font-size: .4em;
+    font-size: .75em;
 } 
 
 /*Utilities*/
