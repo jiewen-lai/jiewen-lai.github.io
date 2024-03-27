@@ -798,13 +798,12 @@
                     var eth = data[12]
                     /*  11 and 558 and 12*//////  * 2 52 13/
 
-                    let position = toDecimal2((btc.lastPrice * 0.00286813 + eth.lastPrice * 0.0160839 + doge.lastPrice * 100.89) * 7.81);
+                    let position = toDecimal2((btc.lastPrice *0.00396395) * 7.82);
                     let result = position.fontcolor("white");
 
                     /*  $("#coin").html(" " + (new Date()).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) + " | <b>BTC/USD: </b>" + toDecimal2(btc.rate) + " | <b>ETH/USD: </b>" + toDecimal2(btc.rate/eth.rate) + " | <b>DOGE/USD: </b>" + toDecimal4(btc.rate/doge.rate));*/
 
-                    $("#coin").html(" " + (new Date()).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) + " | <b>BTC/USD: </b>" + toDecimal2(btc.lastPrice) + " (" + toDecimal2(btc.priceChangePercent) + "%/24hrs)" + " | <b>ETH/USD: </b>" + toDecimal2(eth.lastPrice) + " (" + toDecimal2(eth.priceChangePercent) + "%/24hrs)" + " | <b>DOGE/USD: </b>" + toDecimal4(doge.lastPrice) + " (" + toDecimal2(doge.priceChangePercent) + "%/24hrs) " + result
-                    );
+                    $("#coin").html(" " + (new Date()).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) + " | <b>BTC/USD: </b>" + toDecimal2(btc.lastPrice) + " (" + toDecimal2(btc.priceChangePercent) + "%/24hrs)");
                 });
             }, 5000);
 
