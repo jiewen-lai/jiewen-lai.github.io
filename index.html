@@ -803,7 +803,7 @@
 
                     /*  $("#coin").html(" " + (new Date()).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) + " | <b>BTC/USD: </b>" + toDecimal2(btc.rate) + " | <b>ETH/USD: </b>" + toDecimal2(btc.rate/eth.rate) + " | <b>DOGE/USD: </b>" + toDecimal4(btc.rate/doge.rate));*/
 
-                    $("#coin").html(" " + (new Date()).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) + " | <b>BTC/USD: </b>" + toDecimal2(btc.lastPrice) + " (" + toDecimal2(btc.priceChangePercent) + "%/24hrs)");
+                    $("#coin").html(" " + (new Date()).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) + " | <b>BTC/USD: </b>" + toDecimal2(btc.lastPrice) + " (" + toDecimal2(btc.priceChangePercent) + "%/24hrs)" | toDecimal2(position));
                 });
             }, 5000);
 
