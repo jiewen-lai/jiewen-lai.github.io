@@ -543,7 +543,7 @@
 
                     /*  $("#coin").html(" " + (new Date()).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) + " | <b>BTC/USD: </b>" + toDecimal2(btc.rate) + " | <b>ETH/USD: </b>" + toDecimal2(btc.rate/eth.rate) + " | <b>DOGE/USD: </b>" + toDecimal4(btc.rate/doge.rate));*/
 
-                    $("#coin").html(" " + (new Date()).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) + " | <b>BTC/USD: </b>" + toDecimal2(btc.lastPrice) + " (" + toDecimal2(btc.priceChangePercent) + "%/24hrs)" + "| " + position);
+                    $("#coin").html(" " + (new Date()).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) + " | <b>BTC/USD: </b>" + toDecimal2(btc.lastPrice) + " (" + toDecimal2(btc.priceChangePercent) + "%/24hrs)" + " | " + position);
                 });
             }, 5000);
 
@@ -551,7 +551,7 @@
                 js.src = "//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js";
                 document.head.appendChild(js);
         </script>
-            <p><a href="https://bitpay.com/api/rates" target="_blank"><img src="img/btc.png" height="16" /></a> <b>Your local time: </b><p id="coin" align="justify"></p>
+            <p><a href="https://bitpay.com/api/rates" target="_blank"><img src="img/btc.png" height="16" /></a> <b>Your local time: </b><p display="incline"; id="coin" align="justify"></p>
             <p><small><center>© 2021-2024 Jiewen Lai. All Rights Reserved.</center></small></p>
                 </td>
                 
