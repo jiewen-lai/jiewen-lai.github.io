@@ -19,13 +19,6 @@ Disallow: /
 
 User-agent: Sogou spider2
 Disallow: /
-<<<<<<< HEAD
-=======
-
->>>>>>> 70a8007d98e1d73587febe4ca4a9a49b1bead22f
-
-
-
 
 
 
