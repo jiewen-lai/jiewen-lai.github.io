@@ -2,9 +2,23 @@ User-agent: *
 Disallow: /preprint/
 Disallow: /img/
 Disallow: /index.html
-Disallow: /index
 Disallow: /*.html$
+Disallow: /*.pdf$
 
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: HaoSouSpider
+Disallow: /
+
+User-agent: Sogou web spider
+Disallow: /
+
+User-agent: Sogou inst spider
+Disallow: /
+
+User-agent: Sogou spider2
+Disallow: /
 
 
 
