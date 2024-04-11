@@ -185,5 +185,14 @@ span.highlight {
     border-radius: 5px;
   }
 
+    .archiv-button {
+    display: inline-block;
+    padding: 2px 5px;
+    background-color: rgb(214, 108, 55);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
 
 
