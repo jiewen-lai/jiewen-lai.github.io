@@ -199,7 +199,7 @@
       display: block;
     }
     .pub-title {
-      font-weight: 700;
+      font-weight: 900;
       font-size: 14px;
       color: #111;
       margin-bottom: 4px;
@@ -221,7 +221,7 @@
       color: #333;
       margin-bottom: 6px;
     }
-    .pub-venue em { font-style: italic; }
+    .pub-venue em { font-style: italic;}
     .pub-venue .award {
       display: inline-block;
       background: #fff3cd;
