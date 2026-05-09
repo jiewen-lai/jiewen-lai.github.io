@@ -248,6 +248,8 @@
     }
     .link-pdf   { color: #c0392b; border-color: #c0392b; }
     .link-pdf:hover { background: #c0392b; color: #fff; }
+    .link-web   { color: #572836; border-color: #572836; }
+    .link-web:hover   { background: #572836; color: #fff; }
     .link-video { color: #2980b9; border-color: #2980b9; }
     .link-video:hover { background: #2980b9; color: #fff; }
     .link-code  { color: #27ae60; border-color: #27ae60; }
